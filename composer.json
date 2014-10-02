@@ -1,0 +1,25 @@
+{
+    "name": "fbf/laravel-kss",
+    "description": "",
+    "authors": [
+        {
+            "name": "Zenek Palmer",
+            "email": "zen.palmer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "scan/kss-php": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Fbf\\LaravelKss\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
